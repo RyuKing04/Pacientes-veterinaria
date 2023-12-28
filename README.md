@@ -1,3 +1,16 @@
-# React + Vite
+# Veterinary form 
 
-Proyecto de lista de pacientes, utilizando Vite
+## Made with
+React
+Vite.js
+
+## Install npm
+   ```bash
+   npm install
+   ```
+
+## How to run 
+
+   ``
+   npm run dev
+   ``
