@@ -7,15 +7,16 @@ function App() {
 
   return (
     <div className="container mx-auto mt-20 font-sans"> 
-      <Header 
-      />
+      <Header  />
       <div className="mt-12 md:flex font-sans">
         <Formulario 
         pacientes={pacientes}
         setPacientes={setPacientes}
         
         />
-      <ListadoPacientes />
+      <ListadoPacientes 
+      pacientes={ pacientes }
+      />
       </div>
       
     </div>
